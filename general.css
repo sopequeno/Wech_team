@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'fontawesome';
+    src: url(Fonts/FontAwesome.otf);
+    src: url(Fonts/fontawesome-webfont.eot) format('eot');
+    src: url(Fonts/fontawesome-webfont.svg) format('svg');
+    src: url(Fonts/fontawesome-webfont.ttf) format('ttf');
+    src: url(Fonts/fontawesome-webfont.woff) format('woff');
+
+    font-family: 'glyphicons-halflings-regular';
+    src: url(Fonts/glyphicons-halflings-regular.eot) format('eot');
+    src: url(Fonts/glyphicons-halflings-regular.svg) format('svg');
+    src: url(Fonts/glyphicons-halflings-regular.ttf) format('ttf');
+    src: url(Fonts/glyphicons-halflings-regular.woff) format( 'woff');
+
+    font-family: 'Roboto';
+    src: url(Fonts/Roboto-Black.ttf) format('ttf');
+    src: url(Fonts/Roboto-BlackItalic.ttf) format('ttf');
+    src: url(Fonts/Roboto-Bold.ttf) format('ttf');
+    src: url(Fonts/Roboto-BoldItalic.ttf) format('ttf');
+    src: url(Fonts/Roboto-Italic.ttf) format('ttf');
+    src: url(Fonts/Roboto-Light.ttf) format('ttf');
+    src: url(Fonts/Roboto-LightItalic.ttf) format('ttf');
+    src: url(Fonts/Roboto-Medium.ttf) format('ttf');
+    src: url(Fonts/Roboto-MediumItalic.ttf) format('ttf');
+    src: url(Fonts/Roboto-Regular.ttf) format('ttf');
+    src: url(Fonts/Roboto-Thin.ttf) format('ttf');
+    src: url(Fonts/Roboto-ThinItalic.ttf) format('ttf');
+}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1600px;
+    margin: auto;
+}
+
+.inner {
+    width: 80%;
+    margin: auto;
+}
