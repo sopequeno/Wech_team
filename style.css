@@ -1,0 +1,95 @@
+
+.menu {
+    width: 100%;
+    height: 100px;
+    line-height: 80px;
+    margin-top: 30px;
+}
+
+.logo {
+    margin: 0;
+    padding: 0;
+}
+
+.menuGauche {
+    float: left;
+}
+
+.menuDroite {
+    float: right;
+    font-family: 'Roboto-Thin';
+}
+
+.menuLien {
+    text-decoration: none;
+    padding: 0;
+    margin: 0 20px;
+    color: #80807ab4;
+    transition: all 0.3s ease-in-out;
+    border-top: 2px solid transparent;
+}
+
+.menuLien:hover {
+    color: #3c3a3d;
+    padding-top: 55px;
+    border-color:#1a97d1;
+    
+}
+
+.slider {
+    width: 1600px;
+    overflow: hidden;
+}
+
+.slides {
+    width: calc(1600px * 2);
+    animation: glisse 20s infinite;
+}
+
+.slide {
+    float: left;
+} 
+
+@keyframes glisse {
+    0% {
+        transform: translateX(0)
+    }
+    25% {
+        transform: translateX(0)
+    }
+    50% {
+        transform: translateX(-1600px)
+    }
+    75% {
+        transform: translateX(-1600px)
+    }
+    100% { 
+        transform: translateX(0)
+    }
+
+}
+
+.titreSite {
+    color: #fff;
+    font-family: 'Roboto-Bold';
+    margin-left: 160px;
+    margin-top: -130px;
+}
+
+.titreSite h2 {
+    text-transform: uppercase;
+}
+
+.button {
+    background-color: #1a97d1;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 2px;
+}
